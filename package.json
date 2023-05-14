@@ -1,32 +1,31 @@
 {
-  "name": "date-box",
-  "version": "0.1.0",
-  "description": "🗓 Update a pinned gist to contain your anniversaries and countdown days (or hours)",
-  "author": "kf-liu <kf_ch_liu@163.com>",
-  "license": "MIT",
-  "scripts": {
-    "build": "ncc build src -o dist --minify",
-    "test": "babel src -d lib && node test.js"
-  },
-  "devDependencies": {
-    "@vercel/ncc": "^0.34.0",
-    "@babel/cli": "^7.19.3",
-    "@babel/core": "^7.19.6",
-    "@babel/preset-env": "^7.19.4"
-  },
-  "dependencies": {
-    "@octokit/rest": "16.36.0",
-    "cron-parser": "^4.6.0",
-    "moment": "^2.29.4"
-  },
-  "main": "src/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kf-liu/date-box.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/kf-liu/date-box/issues"
-  },
-  "homepage": "https://github.com/kf-liu/date-box#readme"
+	"name": "date-box",
+	"version": "0.1.0",
+	"description": "🗓 Update a pinned gist to contain your anniversaries and countdown days (or hours)",
+	"author": "kf-liu <kf_ch_liu@163.com>",
+	"license": "MIT",
+	"scripts": {
+		"build": "ncc build src -o dist --minify"
+	},
+	"devDependencies": {
+		"@vercel/ncc": "^0.34.0",
+		"@babel/cli": "^7.19.3",
+		"@babel/core": "^7.19.6",
+		"@babel/preset-env": "^7.19.4"
+	},
+	"dependencies": {
+		"@octokit/rest": "16.36.0",
+		"cron-parser": "^4.6.0",
+		"moment": "^2.29.4"
+	},
+	"main": "src/index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kf-liu/date-box.git"
+	},
+	"keywords": [],
+	"bugs": {
+		"url": "https://github.com/kf-liu/date-box/issues"
+	},
+	"homepage": "https://github.com/kf-liu/date-box#readme"
 }
